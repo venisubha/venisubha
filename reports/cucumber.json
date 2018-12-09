@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Enter the user details",
+        "description": "",
+        "id": "verify-the-user;enter-the-user-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18495729309,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user launch the browser",
+            "match": {
+              "location": "StepDefiniton.user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6635734390,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enter the url",
+            "match": {
+              "location": "StepDefiniton.user_enter_the_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5673229032,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter name \"veni\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "veni",
+                  "offset": 17
+                }
+              ],
+              "location": "StepDefiniton.user_enter_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89283474,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter password \"abc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefiniton.user_enter_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29083919654,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the login button",
+            "match": {
+              "location": "StepDefiniton.user_click_the_login_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the user",
+    "description": "",
+    "id": "verify-the-user",
+    "keyword": "Feature",
+    "uri": "FacebookPractise.feature"
+  }
+]
